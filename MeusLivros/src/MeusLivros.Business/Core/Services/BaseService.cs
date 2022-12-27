@@ -20,7 +20,7 @@ namespace MeusLivros.Business.Core.Services
         }
 
         protected void Notify(string message) 
-            => _notifier.Handle(new Notifications.Notifications(message));
+            => _notifier.Handle(new Notifications.Notification(message));
 
         protected bool ExecuteValidations<TV, TE>(TV validation, TE entity) where TV : AbstractValidator<TE> where TE : Entity
         {

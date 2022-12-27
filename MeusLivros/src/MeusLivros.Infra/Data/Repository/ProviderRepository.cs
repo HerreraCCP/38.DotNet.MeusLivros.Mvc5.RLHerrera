@@ -29,6 +29,6 @@ namespace MeusLivros.Infra.Data.Repository
             provider.IsActive = false;
             await Update(provider);
         }
-        // TODO: Rodrigo: Squad Mine: 2022/11/30: Adicionar a flag IsExcluded pois o ativo/inativo acaba mostrando.
+        // TODO: Rodrigo: Squad Mine: 2022/12/26: Adicionar a flag IsExcluded pois o ativo/inativo acaba mostrando.
     }
 }

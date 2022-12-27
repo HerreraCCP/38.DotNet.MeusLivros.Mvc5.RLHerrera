@@ -1,8 +1,8 @@
-﻿using MeusLivros.Business.Core.Services;
+﻿using MeusLivros.Business.Core.Notifications;
+using MeusLivros.Business.Core.Services;
 using MeusLivros.Business.Models.Products.Validations;
 using System;
 using System.Threading.Tasks;
-using MeusLivros.Business.Core.Notifications;
 
 namespace MeusLivros.Business.Models.Products.Services
 {

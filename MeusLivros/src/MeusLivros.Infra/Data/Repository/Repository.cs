@@ -7,7 +7,6 @@ using System.Data.Entity;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
-// ReSharper disable HeapView.BoxingAllocation
 
 namespace MeusLivros.Infra.Data.Repository
 {

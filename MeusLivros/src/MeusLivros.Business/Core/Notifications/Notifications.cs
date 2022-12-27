@@ -1,8 +1,8 @@
 ﻿namespace MeusLivros.Business.Core.Notifications
 {
-    public class Notifications
+    public class Notification
     {
-        public Notifications(string message) => Message = message;
+        public Notification(string message) => Message = message;
 
         public string Message { get; set; }
     }

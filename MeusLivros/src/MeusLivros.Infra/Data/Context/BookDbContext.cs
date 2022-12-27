@@ -1,3 +1,6 @@
+using MeusLivros.Business.Models.Products;
+using MeusLivros.Business.Models.Providers;
+using MeusLivros.Infra.Data.Mappings;
 using System;
 using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration.Conventions;
@@ -5,9 +8,6 @@ using System.Globalization;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using MeusLivros.Business.Models.Products;
-using MeusLivros.Business.Models.Providers;
-using MeusLivros.Infra.Data.Mappings;
 
 namespace MeusLivros.Infra.Data.Context
 {

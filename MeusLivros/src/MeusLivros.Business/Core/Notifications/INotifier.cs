@@ -4,10 +4,10 @@ namespace MeusLivros.Business.Core.Notifications
 {
     public interface INotifier
     {
-        bool HasNotifications();
+        bool HasNotification();
 
-        List<Notifications> GetNotifications();
+        List<Notification> GetNotifications();
 
-        void Handle(Notifications notifications);
+        void Handle(Notification notifications);
     }
 }

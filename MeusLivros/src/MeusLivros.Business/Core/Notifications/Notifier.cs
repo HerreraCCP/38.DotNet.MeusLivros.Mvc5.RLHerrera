@@ -5,18 +5,18 @@ namespace MeusLivros.Business.Core.Notifications
 {
     public class Notifier : INotifier
     {
-        private readonly List<Notifications> _notifications;
+        private readonly List<Notification> _notifications;
 
         public Notifier() 
-            => _notifications = new List<Notifications>();
+            => _notifications = new List<Notification>();
 
-        public void Handle(Notifications notifications) 
-            => _notifications.Add(notifications);
+        public void Handle(Notification notification) 
+            => _notifications.Add(notification);
 
-        public List<Notifications> GetNotifications() 
+        public List<Notification> GetNotifications() 
             => _notifications;
 
-        public bool HasNotifications() 
+        public bool HasNotification() 
             => _notifications.Any();
     }
 }
