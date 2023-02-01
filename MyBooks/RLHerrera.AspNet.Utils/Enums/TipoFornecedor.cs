@@ -1,4 +1,4 @@
-namespace RLHerrera.AspNet.Business.Models
+namespace RLHerrera.AspNet.Utils.Enums
 {
     public enum TipoFornecedor
     {

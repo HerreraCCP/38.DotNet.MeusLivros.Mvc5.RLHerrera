@@ -1,5 +1,6 @@
-﻿using System.Collections.Generic;
-using RLHerrera.AspNet.Business.Core.Models;
+﻿using RLHerrera.AspNet.Business.Core.Models;
+using RLHerrera.AspNet.Utils.Enums;
+using System.Collections.Generic;
 
 namespace RLHerrera.AspNet.Business.Models
 {
@@ -15,7 +16,7 @@ namespace RLHerrera.AspNet.Business.Models
         public Endereco Endereco { get; set; }
 
         public bool Ativo { get; set; }
-        
+
         /* EF Relations */
         public ICollection<Produto> Produtos { get; set; }
     }

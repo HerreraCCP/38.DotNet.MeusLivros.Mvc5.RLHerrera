@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RLHerrera.AspNet.Infra", "R
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RLHerrera.AspNet.Tests", "src\RLHerrera.AspNet.Tests\RLHerrera.AspNet.Tests.csproj", "{662B4C5B-E746-4860-9996-B23B7113626F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RLHerrera.AspNet.Utils", "RLHerrera.AspNet.Utils\RLHerrera.AspNet.Utils.csproj", "{A9D0187E-58D0-4342-80B0-9429E2B991EE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{662B4C5B-E746-4860-9996-B23B7113626F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{662B4C5B-E746-4860-9996-B23B7113626F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{662B4C5B-E746-4860-9996-B23B7113626F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9D0187E-58D0-4342-80B0-9429E2B991EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9D0187E-58D0-4342-80B0-9429E2B991EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9D0187E-58D0-4342-80B0-9429E2B991EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9D0187E-58D0-4342-80B0-9429E2B991EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

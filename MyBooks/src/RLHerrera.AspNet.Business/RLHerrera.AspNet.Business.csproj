@@ -34,12 +34,21 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Core\Data\IRepository.cs" />
     <Compile Include="Core\Models\Entity.cs" />
     <Compile Include="Models\Endereco\Endereco.cs" />
+    <Compile Include="Models\Endereco\IEnderecoRepository.cs" />
     <Compile Include="Models\Fornecedores\Fornecedor.cs" />
-    <Compile Include="Models\Fornecedores\TipoFornecedor.cs" />
+    <Compile Include="Models\Fornecedores\IFornecedorRepository.cs" />
+    <Compile Include="Models\Produtos\IProdutosRepository.cs" />
     <Compile Include="Models\Produtos\Produto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\RLHerrera.AspNet.Utils\RLHerrera.AspNet.Utils.csproj">
+      <Project>{a9d0187e-58d0-4342-80b0-9429e2b991ee}</Project>
+      <Name>RLHerrera.AspNet.Utils</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
